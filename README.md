@@ -15,15 +15,15 @@ unsigned long long number_in_circle;
 unsigned long long  number_of_cpu, number_of_tosses;
 
 void* randtoss(void* rank){
-    srand((unsigned int)time(NULL));
+    unsigned int seed = time(NULL);
     double x, y, distance_squared;
     long my_rank = (long) rank;
     unsigned long long my_toss = number_of_tosses/number_of_cpu;
     unsigned long long incircle, toss;
     incircle = 0;
     for (toss = 0; toss < my_toss; toss++) {
-        x = ((float)rand())/RAND_MAX;
-        y = ((float)rand())/RAND_MAX;
+        x = (double)rand_r(&seed)/RAND_MAX;
+        y = (double)rand_r(&seed)/RAND_MAX;
         distance_squared = x*x + y*y;
         if (distance_squared <= 1)
             incircle++;
