@@ -12,7 +12,7 @@ OpenMP平行化CG共軛梯度法
 | 4           | 37s    | 86s   | 
 
 #### CG共軛演算法
-[CG Algorithm]](https://ccjou.wordpress.com/2015/12/10/krylov-%E5%AD%90%E7%A9%BA%E9%96%93%E6%B3%95%E2%94%80%E2%94%80%E7%B7%9A%E6%80%A7%E6%96%B9%E7%A8%8B%E7%9A%84%E6%95%B8%E5%80%BC%E8%A7%A3%E6%B3%95-%E4%B8%89%EF%BC%9A%E5%85%B1%E8%BB%9B%E6%A2%AF%E5%BA%A6/)
+[CG Algorithm](https://ccjou.wordpress.com/2015/12/10/krylov-%E5%AD%90%E7%A9%BA%E9%96%93%E6%B3%95%E2%94%80%E2%94%80%E7%B7%9A%E6%80%A7%E6%96%B9%E7%A8%8B%E7%9A%84%E6%95%B8%E5%80%BC%E8%A7%A3%E6%B3%95-%E4%B8%89%EF%BC%9A%E5%85%B1%E8%BB%9B%E6%A2%AF%E5%BA%A6/)
 
 
 
