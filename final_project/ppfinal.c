@@ -53,11 +53,11 @@ float MCsim(float S,float T,float r,float vol,int N){
 
 
 //假設有一個期權的資訊如下
-float S = 50.0;
-float L = 40.0;
-float T = 2.0;
-float r = 0.08;
-float vol = 0.2;
+float S = 32.0;
+float L = 32.0;
+float T = 0.5;
+float r = 0.02;
+float vol = 0.3;
 float call = 0;
 
 int main(int argc , char *argv []) { 
